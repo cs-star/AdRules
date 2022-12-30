@@ -56,8 +56,8 @@ jobs:
       - name: Git push assets to Github
         run: |
           git init
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
+          git config --local user.name "actions"
+          git config --local user.email "action@github.com"
           git branch -m main
           git add .
           git add --all
